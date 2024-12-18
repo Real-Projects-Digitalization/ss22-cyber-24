@@ -11,11 +11,17 @@ Our project aims to address this issue by creating a low-cost, Bluetooth-based p
 3.0 Systems Mapping (Miro)
 
 4.0 Value Proposition Canvas
+
 4.1 Development of our Idea and prototype
+
 4.2 Storyboard
+
 4.3 Prototype
+
 4.3.1 Website
+
 4.3.2 Explanation prototype
+
 4.4 bluetooth direction
 
 
