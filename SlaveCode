@@ -1,0 +1,95 @@
+
+BluetoothSerial SerialBTSlave; // Bluetooth-Objekt erstellen
+
+bool wasConnected = false;
+
+// Pin-Konfiguration
+#define LED_Green 32
+#define buzzerPin 25
+
+void setup() {
+  // Serieller Monitor für Debugging
+  Serial.begin(115200);
+  Serial.println("Slave ESP32 starting...");
+
+ 
+  // Bluetooth initialisieren und als Slave konfigurieren
+  if (!SerialBTSlave.begin("SlaveESP")) { // Bluetooth-Name "SlaveESP"
+    Serial.println("Bluetooth initialization failed!");
+    //reboot;
+  } else{}
+  Serial.println("Bluetooth initialized as SlaveESP");
+
+   // LED und Buzzer als Ausgang konfigurieren
+  pinMode(LED_Green, OUTPUT);
+  pinMode(buzzerPin, OUTPUT);
+
+    // LED und Buzzer deaktivieren
+  digitalWrite(LED_Green, LOW);
+  noTone(buzzerPin);
+
+}
+
+void loop() {
+
+  delay(1000); // 1 Sekunde warten
+
+  if (!SerialBTSlave.connect())
+  {
+    if (!SerialBTSlave.connected() && !wasConnected) 
+    {
+      Serial.println("Waiting for Master to connect...");
+      //wasConnected = false;      
+      return;
+    }
+    
+    if (SerialBTSlave.connected() && !wasConnected) 
+    {
+      HandleConnection();      
+      return;
+    }
+
+    if (!SerialBTSlave.connected() && wasConnected) 
+    {
+      HandleDisconnection();
+      return;
+    }
+  }
+}
+
+void HandleDisconnection() {
+  Serial.println("Master disconnected...");
+  wasConnected = false;
+  digitalWrite(LED_Green, HIGH); // LED einschalten
+  //tone(buzzerPin, 1000);
+  doAlarm();
+
+}
+
+void HandleConnection() {
+  Serial.println("Master connected!");
+  wasConnected = true;
+  digitalWrite(LED_Green, LOW);
+}
+
+void doAlarm()
+{
+  const int totalNotes = sizeof(notes) / sizeof(int);
+  // Loop through each note
+  for (int i = 0; i < totalNotes; i++)
+  {
+    const int currentNote = notes[i];
+    float wait = durations[i] / songSpeed;
+    // Play tone if currentNote is not 0 frequency, otherwise pause (noTone)
+    if (currentNote != 0)
+    {
+      tone(buzzerPin, notes[i], wait); // tone(pin, frequency, duration)
+    }
+    else
+    {
+      noTone(buzzerPin);
+    }
+    // delay is used to wait for tone to finish playing before moving to next loop
+    delay(wait);
+  }
+}
