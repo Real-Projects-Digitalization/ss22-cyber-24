@@ -19,6 +19,7 @@ Our project aims to address this issue by creating a low-cost, Bluetooth-based p
 **4.3 Prototype**
 
   **4.3.1 Website**
+  
 Our website (BUDDY TAG) (https://toucan-copper-lgy5.squarespace.com/config/) was created to gain a foothold in the modern business world. The website is often the first point of contact between the startup and potential customers, partners or investors. It conveys professionalism and credibility. 
 
 Why did we decide in favour of a website?
