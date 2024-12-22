@@ -121,7 +121,7 @@ The Powerbanks need to be charged after ~20 hours of usage.
 The Cashflow file is filled with informations around the cost structure, the revenue and the sales figuers.
 Included is also a table with a potential investment of 4.315.000 €, wich is the amount we needed to enhance our product.
 
-**5.2 Cashlow new**
+**5.2 Cashflow new**
 
 In that file, we overworked the calculation we did before in file "5.1. Cashflow". Especially we worked on a new calculation
 because of the amount of the total investment. We reduced it from 4.315.000 € to 150.000 €. It`s because it was unrealistic to gain
@@ -132,7 +132,7 @@ so much money for a new product at the stadium we are at the moment. Also the sa
  In that file, we did some research for the possible market.
  The Table in that file describes short, where the data is coming from.
 
- **6. Newsletter articel**
+ **6. Newsletter article**
  
 The newsletter articel describes the problem we want to solve with our product.
 There is also a part wich shows, how the procuct will work and a short statement of our CEO.
