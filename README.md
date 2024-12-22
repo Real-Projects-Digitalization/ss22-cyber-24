@@ -115,20 +115,25 @@ The Powerbanks need to be charged after ~20 hours of usage.
 4.4 bluetooth direction
 
 **5.0 Business Plan**
-	**5.1 Cashflow**
+
+**5.1 Cashflow**
+
 The Cashflow file is filled with informations around the cost structure, the revenue and the sales figuers.
 Included is also a table with a potential investment of 4.315.000 €, wich is the amount we needed to enhance our product.
 
-	**5.2 Cashlow new**
+**5.2 Cashlow new**
+
 In that file, we overworked the calculation we did before in file "5.1. Cashflow". Especially we worked on a new calculation
 because of the amount of the total investment. We reduced it from 4.315.000 € to 150.000 €. It`s because it was unrealistic to gain
 so much money for a new product at the stadium we are at the moment. Also the sales figures are redused in the new calculation, according to the file TAM SAM SOM
 
-	**5.3 TAM SAM SOM**
+**5.3 TAM SAM SOM**
+
  In that file, we did some research for the possible market.
  The Table in that file describes short, where the data is coming from.
 
  **6. Newsletter articel**
+ 
 The newsletter articel describes the problem we want to solve with our product.
 There is also a part wich shows, how the procuct will work and a short statement of our CEO.
 
