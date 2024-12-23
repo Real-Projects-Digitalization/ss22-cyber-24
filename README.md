@@ -105,6 +105,14 @@ This project uses the BluetoothSerial library, which is licensed under the Apach
 GitHubLibrary for Soundtrack: https://github.com/xitanggg/-Pirates-of-the-Caribbean-Theme-Song/blob/master/Pirates_of_the_Caribbean_-_Theme_Song.ino
 License Details: No restrictions on use or distribution; fully free for personal or commercial projects.
 
+  **4.3.2.1 MasterCode**
+  
+The master code establishes a Bluetooth connection with the slave device, monitors the connection, and triggers alerts (sound and LEDs) when the connection is lost. It uses the BluetoothSerial library for communication and includes logic for initializing components, managing the connection, and handling alarms.
+
+  **4.3.2.2 SlaveCode**
+
+The slave code establishes a Bluetooth connection with the master device and monitors the connection status. It triggers alerts (sound and LEDs) when the connection is lost, providing feedback on the status. It uses the BluetoothSerial library for communication and includes logic for initializing components, managing the connection, and responding to alerts.
+
 How It Works - Initial Setup:
 
 The parent and child units are positioned near each other (approximately one meter apart).
