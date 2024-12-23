@@ -132,6 +132,11 @@ so much money for a new product at the stadium we are at the moment. Also the sa
  In that file, we did some research for the possible market.
  The Table in that file describes short, where the data is coming from.
 
+ **5.4 Material Costs**	
+
+The material costs were determined based on material and technical research. This document outlines the costs for both the prototype and the final product. 
+The final product differs from the prototype in the materials used. All sources have been provided.
+
  **6. Newsletter article**
  
 The newsletter articel describes the problem we want to solve with our product.
