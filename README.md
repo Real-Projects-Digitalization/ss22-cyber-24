@@ -3,18 +3,29 @@ ss22-cyber-24 created by GitHub Classroom
 Welcome to our Readme page. We are Cyber24 and the past couple weeks we worked on the creation of our startup. 
 
 **1.0 Problem Statement**
+
 Ensuring the safety and security of children is a significant concern for parents, particularly in environments where distance monitoring and timely alerts are critical. Conventional solutions like GPS trackers or mobile applications often lack immediate responsiveness or require a network connection, making them less reliable in certain situations.
 Our project aims to address this issue by creating a low-cost, Bluetooth-based proximity alarm system. This solution ensures that both parents and children are alerted if the connection between their devices weakens or is lost, indicating an increased distance. By offering a simple and robust alternative, this system provides peace of mind to parents while enhancing IT security for their children.
 
 **2.0 Data Collection**
+
 We opted for interviews as method of data collection. Trials for online surveys had been used , but they weren't much telling on the initial problem. We presumed it was due to the length of the survey or particpants not filling out open questions. In this document is one short snippet transkript of a conversation with a parent.
+
 **3.0 Systems Mapping (Miro)**
+
+The screenshot shows our virtuel workspaces on Miro, where essentially we had brainstorming sessions or did assignements together if possible. 
 
 **4.0 Value Proposition Canvas**
 
+This Canva is an overview of our product and what we offer! It was part of an assignement on the SCE academy. 
+
 **4.1 Development of our Idea and prototype**
 
+The following 4.2-4.4 are different steps from ideation to prototyping.
+
 **4.2 Storyboard**
+
+In Marketing a crucial part of product placement is Storytelling. this document shows our Story on a board! 
 
 **4.3 Prototype**
 
