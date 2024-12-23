@@ -7,7 +7,7 @@ Ensuring the safety and security of children is a significant concern for parent
 Our project aims to address this issue by creating a low-cost, Bluetooth-based proximity alarm system. This solution ensures that both parents and children are alerted if the connection between their devices weakens or is lost, indicating an increased distance. By offering a simple and robust alternative, this system provides peace of mind to parents while enhancing IT security for their children.
 
 **2.0 Data Collection**
-
+We opted for interviews as method of data collection. Trials for online surveys had been used , but they weren't much telling on the initial problem. We presumed it was due to the length of the survey or particpants not filling out open questions. In this document is one short snippet transkript of a conversation with a parent.
 **3.0 Systems Mapping (Miro)**
 
 **4.0 Value Proposition Canvas**
